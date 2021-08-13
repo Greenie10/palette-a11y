@@ -1,4 +1,4 @@
-export const ColorList = [
+export const FullColorList = [
   "#242048",
   "#F7F9FD",
   "#e6716e",
@@ -41,4 +41,16 @@ export const ColorList = [
   "#7c7c7c",
   "#E6E6E6",
   "#f7f7f7",
+];
+export const SmallColorList = [
+  "#242048",
+  "#F7F9FD",
+  "#e6716e",
+  "#E2AA19",
+  "#60A38E",
+  "#5C88C6",
+  "#df9158",
+  "#f2c353",
+  "#000000",
+  "#ffffff",
 ];

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import { ColorList } from "./colors.js";
+import { SmallColorList } from "./colors.js";
 
 export const CompareArrayOfColors = () => {
   const [result, setResult] = useState("");
@@ -39,7 +39,7 @@ export const CompareArrayOfColors = () => {
   };
 
   const handleClick = () => {
-    ColorList.map((x) => createColorArray(x));
+    SmallColorList.map((x) => createColorArray(x));
     const ratio = {};
     // const rgb = ColorList.map((x) => hexToRgb(x));
     // const luminanceArray = rgb.map((x) => calculateLuminance(x.r, x.g, x.b));
@@ -56,6 +56,7 @@ export const CompareArrayOfColors = () => {
 
     console.log("colorArray: ", colorArray);
     console.log("ratio: ", ratio);
+
     setResult(<div>stuff</div>);
   };
 
